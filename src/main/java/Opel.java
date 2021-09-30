@@ -3,7 +3,8 @@ public class Opel extends CarBrands {
     private boolean autoTransmission = false;
 
     public Opel(int serialNumber, String status) {
-        super(serialNumber, status);
+        setSerialNUmber(serialNumber);
+        setStatus(status);
     }
 
     @Override
@@ -14,4 +15,5 @@ public class Opel extends CarBrands {
     public boolean isAutoTransmission(){
         return autoTransmission;
     }
+
 }

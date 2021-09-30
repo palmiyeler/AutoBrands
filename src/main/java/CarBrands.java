@@ -10,11 +10,18 @@ public class CarBrands {
 
 
 
-    public CarBrands(int serialNumber, String status) {              //CarBrands uzerinden nesne olusturulmasini istemiyorum??
-        status = this.status;
+    public CarBrands() {              //CarBrands uzerinden nesne olusturulmasini istemiyorum??
+
     }
 
 
+    public void setSerialNUmber(int serialNUmber){
+
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
 
     public String getForms(int i) {     //sadece genel class icerinde bulunmasini, obje uzerinde-attribute olarak olmasini istemiyorum,
         return forms[i];

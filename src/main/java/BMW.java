@@ -4,7 +4,7 @@ public class BMW extends CarBrands {
     private boolean autoTransmission = false;
 
     public BMW(int serialNumber, String status) {
-        super(serialNumber, status);
+        //super(serialNumber, status);
     }
 
     public boolean isSeatHeater() {

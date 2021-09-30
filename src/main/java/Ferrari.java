@@ -5,7 +5,7 @@ public class Ferrari extends CarBrands {
     private boolean autoTransmission = true;
 
     public Ferrari(int serialNumber, String status) {
-        super(serialNumber, status);
+        //super(serialNumber, status);
     }
 
     @Override
